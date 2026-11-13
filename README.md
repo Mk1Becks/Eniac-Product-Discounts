@@ -36,13 +36,13 @@ Die Produkte hatten keine Kategorie. Ich habe sie deshalb über Stichwörter im 
 
 ### Verkaufte Positionen je Kategorie
 
-![Verkaufte Positionen je Kategorie](images/kategorien_anzahl.png)
+![Verkaufte Positionen je Kategorie](kategorien_anzahl.png)
 
 Hüllen & Taschen (ca. 10.100), Laden & Kabel (ca. 9.200) und Speicher (ca. 8.500) machen zusammen über die Hälfte aller Positionen aus.
 
 ### Preisverteilung je Kategorie
 
-![Mittlerer Preis je Kategorie](images/preis_median_kategorie.png)
+![Mittlerer Preis je Kategorie](preis_median_kategorie.png)
 
 Die Preise unterscheiden sich stark: Laden & Kabel liegt im Median bei ca. 40 €, Apple Geräte bei ca. 640 €. Je teurer die Kategorie, desto breiter die Preisspanne.
 
@@ -71,17 +71,11 @@ Aus der gemeinsamen Präsentation:
 
 ---
 
-## Repo-Struktur
+## Dateien im Repo
 
-```
-Eniac-Product-Discounts/
-├── notebooks/
-│   └── eniac_kategorien_preise.ipynb   # Daten zusammenführen, Kategorien, Charts
-├── presentation/
-│   └── Eniac_Produktrabatte_Praesentation.pptx
-├── images/                             # Charts für dieses README
-└── README.md
-```
+- `eniac_kategorien_preise.ipynb`: Notebook (Daten zusammenführen, Kategorien bilden, Charts)
+- `Eniac_Produktrabatte_Präsentation.pptx`: Abschlusspräsentation des Teams
+- `kategorien_anzahl.png`, `preis_median_kategorie.png`: Charts für dieses README
 
 ## So lässt sich das Notebook ausführen
 
